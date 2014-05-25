@@ -260,3 +260,7 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# -- autddoc -----------------------------------------------------------------
+autodoc_default_flags = ['members', 'undoc-members']
+autoclass_content = "both"
